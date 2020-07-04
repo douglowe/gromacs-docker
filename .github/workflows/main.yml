@@ -116,7 +116,7 @@ jobs:
 
   # Combine all subcontainers into a single container.
   # If you specified multiple CUDA or gromacs versions, or
-  # you changed them you need to set these below
+  # you changed them, you need to set these below
   # 
   build_final_container:
     strategy:
